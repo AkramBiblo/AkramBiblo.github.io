@@ -1,0 +1,1238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/b5f62a0a22.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <script defer src="code.js"></script>
+    <title>TechnoMart</title>
+</head>
+<body>
+     
+    <!-- top  -->
+    <div id="top" class="container-fluid">
+        <div class="row">
+            
+                <div class="col col-xl-6 mt-3">
+                    <div class="row float-left">
+                        <div class="col col-sm-6">
+                            <div class="dropdown d-flex m-1">
+                                <img id="flag" class="m-1" src="flag.png" alt="flag">
+                                <p type="button" class="text-light dropdown-toggle" data-toggle="dropdown">
+                                    French
+                                </p>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">English</a>
+                                    <a class="dropdown-item" href="#">French</a>
+                                    <a class="dropdown-item" href="#">German</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-sm-6">
+                            <div class="dropdown m-1">
+                                <p type="button" class="text-light dropdown-toggle" data-toggle="dropdown">
+                                    Currency$
+                                </p>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">$Doller</a>
+                                    <a class="dropdown-item" href="#">&euro;Euros</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            
+           
+                <div class="col-xl-6 float-left justify-content-end">
+                    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+                        <a class="navbar-brand" href="#">My Account</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                          <ul class="navbar-nav">
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">My Account</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">Wishlist</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">Checkout</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Compare</a>
+                              </li> 
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Log In</a>
+                              </li>     
+                          </ul>
+                        </div>  
+                      </nav>
+                </div>
+        </div>
+    </div>
+
+
+    <!-- Navbar items -->
+    <div id="nbar" class="container-fluid sticky-top">
+        <div class="row">
+            <div class="col-sm-3 ">
+                <h2 class="font-italic text-light ml-3 mt-2"> <strong>Techno</strong>Mart</h2>
+            </div>
+
+            <div class="col-sm-7 ">
+                <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+                    <a class="navbar-brand" href="#">NavList</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navlist">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navlist">
+                      <ul class="navbar-nav">
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">PAGES</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">CAMERA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">LAPTOPS</a>
+                          </li> 
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">TV & AUDIO</a>
+                          </li>   
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">CELL PHONES</a>
+                          </li> 
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">ACCESORIES</a>
+                          </li>   
+                      </ul>
+                    </div>  
+                  </nav>
+            </div>
+
+            <div class="col-sm-2 d-flex justify-content-end">
+                <div class="col-sm bg-black d-flex ">
+                  <a class="nav-link" href="#"><i class='fas fa-search-location' style='font-size:30px;color:white'></i></a>
+                  <a class="nav-link" href="#"><i class='fas fa-cart-plus' style='font-size:30px;color:white'></i></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Middle titles -->
+    <div class="container-fluid" style="height: 160px;">
+    </div>
+
+    <div class="container-fluid">
+
+        <div id="demo6" class="carousel slide" data-ride="carousel">
+
+            <!-- Indicators -->
+            <!-- <ul class="carousel-indicators">
+              <li data-target="#demo6" data-slide-to="0" class="active"></li>
+              <li data-target="#demo6" data-slide-to="1"></li>
+              <li data-target="#demo6" data-slide-to="2"></li>
+            </ul> -->
+          
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                        <div class="row">
+                    
+                            <div class="col-xl">
+                                <div id="offers" class="container">
+                                <h2 style="font-family: Sofia; font-style: italic; color: rgb(243, 243, 247);">SPECIAL OFFER</h2>
+                                <h1 class="" style="color: white; font-size: 4rem;"><strong>BEST COLLECTION</strong></h1>
+                                <p style="color:white">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                                when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                </p>
+                                <div class="container-fluid border d-flex justify-content-center">
+                                    <a href="#" class="text-light font-weight-bolder">Shop Now</a>
+                                </div>
+                                </div>
+                            </div>
+                    
+                        </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                    
+                    <div class="col-xl">
+                        <div id="offers" class="container">
+                        <h2 style="font-family: Georgia, 'Times New Roman', Times, serif; font-style: italic; color: rgb(10, 223, 238);">HAPPY HOLIDAY</h2>
+                        <h1 class="" style="color: rgb(10, 223, 238); font-family: sofia; font-size: 4rem;"><strong>GET UP TO 70% OFF</strong></h1>
+                        <p style="color:rgb(10, 223, 238)">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                        when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                        </p>
+                        <div class="container-fluid border d-flex justify-content-center">
+                            <a href="#" class="text-light font-weight-bolder">Shop Now</a>
+                        </div>
+                        </div>
+                    </div>
+            
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                    
+                    <div class="col-xl">
+                        <div id="offers" class="container">
+                        <h2 style="font-family: Sofia; font-style: italic; color: rgb(177, 238, 11);">EID FESTIVAL OFFER</h2>
+                        <h1 class="" style="color: rgb(177, 238, 11); font-family: Fantasy, Geneva, Tahoma, sans-serif; font-size: 4rem;"><strong>BEST RATES</strong></h1>
+                        <p style="color:rgb(177, 238, 11)">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                        when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                        </p>
+                        <div class="container-fluid border d-flex justify-content-center">
+                            <a href="#" class="text-light font-weight-bolder">Shop Now</a>
+                        </div>
+                        </div>
+                    </div>
+            
+                </div>
+              </div>
+            </div>
+          
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo6" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo6" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          
+          </div>
+
+                
+    </div>
+    
+    <div class="container-fluid" style="height: 150px;">
+    </div>
+
+    <!-- Banners -->
+    <div class="container-fluid bg-white">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col col-lg-4 p-3">
+                    <div class="card ">
+                        <img src="banner1.jpg" alt="banner1">
+                        <div class="card-img-overlay">
+                            <p class="card-text">Only in our store</p>
+                            <h4 class="card-title">Special Offer</h4>
+                            <a href="#" class="">See Detailes</a>
+                          </div>
+                    </div>
+                </div>
+                <div class="col col-lg-4 p-3">
+                    <div class="card ">
+                        <img src="banner2.jpg" alt="banner2">
+                        <div class="card-img-overlay">
+                            <p class="card-text">Only in our store</p>
+                            <h4 class="card-title">Special Offer</h4>
+                            <a href="#" class="">See Detailes</a>
+                          </div>
+                    </div>
+                </div>
+                <div class="col col-lg-4 mt-3">
+                    <div class="card ">
+                        <img src="banner3.jpg" alt="banner3">
+                        <div class="card-img-overlay">
+                            <p class="card-text">Only in our store</p>
+                            <h4 class="card-title">Special Offer</h4>
+                            <a href="#" class="">See Detailes</a>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Other offers -->
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-4 flex-column p-3">
+                    <div class="container d-flex border p-3">
+                        <img style="height: 80px; width: 80px;" src="bank.jpg" alt="bank">
+                        <div class="container">
+                            <h5>REASONABLE PRICING</h5>
+                            <p>To establish a selling price for a product</p>
+                        </div>
+                    </div>
+                    <div class="container d-flex border mt-3 p-3">
+                        <img style="height: 80px; width: 80px;" src="time.jpg" alt="bank">
+                        <div class="container">
+                            <h5>REASONABLE PRICING</h5>
+                            <p>To establish a selling price for a product</p>
+                        </div>
+                    </div>
+                    <div class="container d-flex border mt-3 p-3">
+                        <img style="height: 80px; width: 80px;" src="headphone.png" alt="bank">
+                        <div class="container">
+                            <h5>REASONABLE PRICING</h5>
+                            <p>To establish a selling price for a product</p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col ">
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li class="nav-item">
+                          <a class="nav-link active font-weight-bolder" data-toggle="tab" href="#new-arrivals">NEW ARRIVALS</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link font-weight-bolder" data-toggle="tab" href="#best-selles">BEST SELLER</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link font-weight-bolder" data-toggle="tab" href="#latest-products">LATEST PRODUCTS</a>
+                        </li>
+                      </ul>
+                      <!-- Tab panes -->
+                    <div class="tab-content">
+
+                        <div id="new-arrivals" class="container m-0 p-0 tab-pane active">
+                            <div id="demo" class="carousel slide" data-ride="carousel">
+
+                                <!-- Indicators -->
+                                <ul class="carousel-indicators">
+                                  <li data-target="#demo" data-slide-to="0" class="active"></li>
+                                  <li data-target="#demo" data-slide-to="1"></li>
+                                  <li data-target="#demo" data-slide-to="2"></li>
+                                </ul>
+                                
+                                <!-- The slideshow -->
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <div class="container-fluid row border mt-4 p-0 d-flex">
+                                            <div class="container col d-block mt-3 p-0">
+                                                <div class="container d-flex justify-content-center">
+                                                    <img class="border" src="pro1.jpg" alt="Headphone" style="height: 250px; width: 250px;">
+                                                </div>
+                                                <div class="container d-block justify-content-center">
+                                                    <div class="container d-flex justify-content-center">
+                                                        <h6>Product Title Here</h6>
+                                                    </div>
+                                                    <div class="container d-flex justify-content-center">
+                                                        <h6>$150.00</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="container col d-block mt-3 p-0">
+                                                <div class="container d-flex justify-content-center">
+                                                    <img class="border" src="pro2.jpg" alt="Headphone" style="height: 250px; width: 250px;">
+                                                </div>
+                                                <div class="container d-block justify-content-center">
+                                                    <div class="container d-flex justify-content-center">
+                                                        <h6>Product Title Here</h6>
+                                                    </div>
+                                                    <div class="container d-flex justify-content-center">
+                                                        <h6>$150.00</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="container col d-block mt-3 p-0">
+                                                <div class="container d-flex justify-content-center">
+                                                    <img class="border" src="pro3.jpg" alt="Headphone" style="height: 250px; width: 250px;">
+                                                </div>
+                                                <div class="container d-block justify-content-center">
+                                                    <div class="container d-flex justify-content-center">
+                                                        <h6>Product Title Here</h6>
+                                                    </div>
+                                                    <div class="container d-flex justify-content-center">
+                                                        <h6>$150.00</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="container-fluid row border mt-4 p-0 d-flex">
+                                            <div class="container col d-block mt-3 p-0">
+                                                <div class="container d-flex justify-content-center">
+                                                    <img class="border" src="pro4.jpg" alt="Headphone" style="height: 250px; width: 250px;">
+                                                </div>
+                                                <div class="container d-block justify-content-center">
+                                                    <div class="container d-flex justify-content-center">
+                                                        <h6>Product Title Here</h6>
+                                                    </div>
+                                                    <div class="container d-flex justify-content-center">
+                                                        <h6>$150.00</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="container col d-block mt-3 p-0">
+                                                <div class="container d-flex justify-content-center">
+                                                    <img class="border" src="pro5.jpg" alt="Headphone" style="height: 250px; width: 250px;">
+                                                </div>
+                                                <div class="container d-block justify-content-center">
+                                                    <div class="container d-flex justify-content-center">
+                                                        <h6>Product Title Here</h6>
+                                                    </div>
+                                                    <div class="container d-flex justify-content-center">
+                                                        <h6>$150.00</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="container col d-block mt-3 p-0">
+                                                <div class="container d-flex justify-content-center">
+                                                    <img class="border" src="pro6.jpg" alt="Headphone" style="height: 250px; width: 250px;">
+                                                </div>
+                                                <div class="container d-block justify-content-center">
+                                                    <div class="container d-flex justify-content-center">
+                                                        <h6>Product Title Here</h6>
+                                                    </div>
+                                                    <div class="container d-flex justify-content-center">
+                                                        <h6>$150.00</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="container-fluid row border mt-4 p-0 d-flex">
+                                            <div class="container col d-block mt-3 p-0">
+                                                <div class="container d-flex justify-content-center">
+                                                    <img class="border" src="pro7.jpg" alt="Headphone" style="height: 250px; width: 250px;">
+                                                </div>
+                                                <div class="container d-block justify-content-center">
+                                                    <div class="container d-flex justify-content-center">
+                                                        <h6>Product Title Here</h6>
+                                                    </div>
+                                                    <div class="container d-flex justify-content-center">
+                                                        <h6>$150.00</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="container col d-block mt-3 p-0">
+                                                <div class="container d-flex justify-content-center">
+                                                    <img class="border" src="pro8.jpg" alt="Headphone" style="height: 250px; width: 250px;">
+                                                </div>
+                                                <div class="container d-block justify-content-center">
+                                                    <div class="container d-flex justify-content-center">
+                                                        <h6>Product Title Here</h6>
+                                                    </div>
+                                                    <div class="container d-flex justify-content-center">
+                                                        <h6>$150.00</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="container col d-block mt-3 p-0">
+                                                <div class="container d-flex justify-content-center">
+                                                    <img class="border" src="pro9.jpg" alt="Headphone" style="height: 250px; width: 250px;">
+                                                </div>
+                                                <div class="container d-block justify-content-center">
+                                                    <div class="container d-flex justify-content-center">
+                                                        <h6>Product Title Here</h6>
+                                                    </div>
+                                                    <div class="container d-flex justify-content-center">
+                                                        <h6>$150.00</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- Left and right controls -->
+                                <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                                  <span class="carousel-control-prev-icon bg-dark"></span>
+                                </a>
+                                <a class="carousel-control-next" href="#demo" data-slide="next">
+                                  <span class="carousel-control-next-icon bg-dark"></span>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- Carousel -->
+                        
+                        <!-- Tab-2  -->
+                        <div id="best-selles" class="container m-0 p-0 tab-pane fade">
+                            <div id="demo2" class="carousel slide" data-ride="carousel">
+
+                                <!-- Indicators -->
+                                <ul class="carousel-indicators">
+                                  <li data-target="#demo2" data-slide-to="0" class="active"></li>
+                                  <li data-target="#demo2" data-slide-to="1"></li>
+                                  <li data-target="#demo2" data-slide-to="2"></li>
+                                </ul>
+                                
+                                <!-- The slideshow -->
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <div class="container-fluid row border mt-4 p-0 d-flex">
+                                            <div class="container col d-block mt-3 p-0">
+                                                <div class="container d-flex justify-content-center">
+                                                    <img class="border" src="pro1.jpg" alt="Headphone" style="height: 250px; width: 250px;">
+                                                </div>
+                                                <div class="container d-block justify-content-center">
+                                                    <div class="container d-flex justify-content-center">
+                                                        <h6>Product Title Here</h6>
+                                                    </div>
+                                                    <div class="container d-flex justify-content-center">
+                                                        <h6>$150.00</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="container col d-block mt-3 p-0">
+                                                <div class="container d-flex justify-content-center">
+                                                    <img class="border" src="pro2.jpg" alt="Headphone" style="height: 250px; width: 250px;">
+                                                </div>
+                                                <div class="container d-block justify-content-center">
+                                                    <div class="container d-flex justify-content-center">
+                                                        <h6>Product Title Here</h6>
+                                                    </div>
+                                                    <div class="container d-flex justify-content-center">
+                                                        <h6>$150.00</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="container col d-block mt-3 p-0">
+                                                <div class="container d-flex justify-content-center">
+                                                    <img class="border" src="pro3.jpg" alt="Headphone" style="height: 250px; width: 250px;">
+                                                </div>
+                                                <div class="container d-block justify-content-center">
+                                                    <div class="container d-flex justify-content-center">
+                                                        <h6>Product Title Here</h6>
+                                                    </div>
+                                                    <div class="container d-flex justify-content-center">
+                                                        <h6>$150.00</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="container-fluid row border mt-4 p-0 d-flex">
+                                            <div class="container col d-block mt-3 p-0">
+                                                <div class="container d-flex justify-content-center">
+                                                    <img class="border" src="pro4.jpg" alt="Headphone" style="height: 250px; width: 250px;">
+                                                </div>
+                                                <div class="container d-block justify-content-center">
+                                                    <div class="container d-flex justify-content-center">
+                                                        <h6>Product Title Here</h6>
+                                                    </div>
+                                                    <div class="container d-flex justify-content-center">
+                                                        <h6>$150.00</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="container col d-block mt-3 p-0">
+                                                <div class="container d-flex justify-content-center">
+                                                    <img class="border" src="pro5.jpg" alt="Headphone" style="height: 250px; width: 250px;">
+                                                </div>
+                                                <div class="container d-block justify-content-center">
+                                                    <div class="container d-flex justify-content-center">
+                                                        <h6>Product Title Here</h6>
+                                                    </div>
+                                                    <div class="container d-flex justify-content-center">
+                                                        <h6>$150.00</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="container col d-block mt-3 p-0">
+                                                <div class="container d-flex justify-content-center">
+                                                    <img class="border" src="pro6.jpg" alt="Headphone" style="height: 250px; width: 250px;">
+                                                </div>
+                                                <div class="container d-block justify-content-center">
+                                                    <div class="container d-flex justify-content-center">
+                                                        <h6>Product Title Here</h6>
+                                                    </div>
+                                                    <div class="container d-flex justify-content-center">
+                                                        <h6>$150.00</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="container-fluid row border mt-4 p-0 d-flex">
+                                            <div class="container col d-block mt-3 p-0">
+                                                <div class="container d-flex justify-content-center">
+                                                    <img class="border" src="pro7.jpg" alt="Headphone" style="height: 250px; width: 250px;">
+                                                </div>
+                                                <div class="container d-block justify-content-center">
+                                                    <div class="container d-flex justify-content-center">
+                                                        <h6>Product Title Here</h6>
+                                                    </div>
+                                                    <div class="container d-flex justify-content-center">
+                                                        <h6>$150.00</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="container col d-block mt-3 p-0">
+                                                <div class="container d-flex justify-content-center">
+                                                    <img class="border" src="pro8.jpg" alt="Headphone" style="height: 250px; width: 250px;">
+                                                </div>
+                                                <div class="container d-block justify-content-center">
+                                                    <div class="container d-flex justify-content-center">
+                                                        <h6>Product Title Here</h6>
+                                                    </div>
+                                                    <div class="container d-flex justify-content-center">
+                                                        <h6>$150.00</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="container col d-block mt-3 p-0">
+                                                <div class="container d-flex justify-content-center">
+                                                    <img class="border" src="pro9.jpg" alt="Headphone" style="height: 250px; width: 250px;">
+                                                </div>
+                                                <div class="container d-block justify-content-center">
+                                                    <div class="container d-flex justify-content-center">
+                                                        <h6>Product Title Here</h6>
+                                                    </div>
+                                                    <div class="container d-flex justify-content-center">
+                                                        <h6>$150.00</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- Left and right controls -->
+                                <a class="carousel-control-prev" href="#demo2" data-slide="prev">
+                                  <span class="carousel-control-prev-icon bg-dark"></span>
+                                </a>
+                                <a class="carousel-control-next" href="#demo2" data-slide="next">
+                                  <span class="carousel-control-next-icon bg-dark"></span>
+                                </a>
+                            </div>
+                            
+                          </div>
+                          <!-- Tab-3  -->
+                          <div id="latest-products" class="container m-0 p-0 tab-pane fade">
+                            <div id="demo3" class="carousel slide" data-ride="carousel">
+
+                                <!-- Indicators -->
+                                <ul class="carousel-indicators">
+                                  <li data-target="#demo3" data-slide-to="0" class="active"></li>
+                                  <li data-target="#demo3" data-slide-to="1"></li>
+                                  <li data-target="#demo3" data-slide-to="2"></li>
+                                </ul>
+                                
+                                <!-- The slideshow -->
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <div class="container-fluid row border mt-4 p-0 d-flex">
+                                            <div class="container col d-block mt-3 p-0">
+                                                <div class="container d-flex justify-content-center">
+                                                    <img class="border" src="pro1.jpg" alt="Headphone" style="height: 250px; width: 250px;">
+                                                </div>
+                                                <div class="container d-block justify-content-center">
+                                                    <div class="container d-flex justify-content-center">
+                                                        <h6>Product Title Here</h6>
+                                                    </div>
+                                                    <div class="container d-flex justify-content-center">
+                                                        <h6>$150.00</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="container col d-block mt-3 p-0">
+                                                <div class="container d-flex justify-content-center">
+                                                    <img class="border" src="pro2.jpg" alt="Headphone" style="height: 250px; width: 250px;">
+                                                </div>
+                                                <div class="container d-block justify-content-center">
+                                                    <div class="container d-flex justify-content-center">
+                                                        <h6>Product Title Here</h6>
+                                                    </div>
+                                                    <div class="container d-flex justify-content-center">
+                                                        <h6>$150.00</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="container col d-block mt-3 p-0">
+                                                <div class="container d-flex justify-content-center">
+                                                    <img class="border" src="pro3.jpg" alt="Headphone" style="height: 250px; width: 250px;">
+                                                </div>
+                                                <div class="container d-block justify-content-center">
+                                                    <div class="container d-flex justify-content-center">
+                                                        <h6>Product Title Here</h6>
+                                                    </div>
+                                                    <div class="container d-flex justify-content-center">
+                                                        <h6>$150.00</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="container-fluid row border mt-4 p-0 d-flex">
+                                            <div class="container col d-block mt-3 p-0">
+                                                <div class="container d-flex justify-content-center">
+                                                    <img class="border" src="pro4.jpg" alt="Headphone" style="height: 250px; width: 250px;">
+                                                </div>
+                                                <div class="container d-block justify-content-center">
+                                                    <div class="container d-flex justify-content-center">
+                                                        <h6>Product Title Here</h6>
+                                                    </div>
+                                                    <div class="container d-flex justify-content-center">
+                                                        <h6>$150.00</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="container col d-block mt-3 p-0">
+                                                <div class="container d-flex justify-content-center">
+                                                    <img class="border" src="pro5.jpg" alt="Headphone" style="height: 250px; width: 250px;">
+                                                </div>
+                                                <div class="container d-block justify-content-center">
+                                                    <div class="container d-flex justify-content-center">
+                                                        <h6>Product Title Here</h6>
+                                                    </div>
+                                                    <div class="container d-flex justify-content-center">
+                                                        <h6>$150.00</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="container col d-block mt-3 p-0">
+                                                <div class="container d-flex justify-content-center">
+                                                    <img class="border" src="pro6.jpg" alt="Headphone" style="height: 250px; width: 250px;">
+                                                </div>
+                                                <div class="container d-block justify-content-center">
+                                                    <div class="container d-flex justify-content-center">
+                                                        <h6>Product Title Here</h6>
+                                                    </div>
+                                                    <div class="container d-flex justify-content-center">
+                                                        <h6>$150.00</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="container-fluid row border mt-4 p-0 d-flex">
+                                            <div class="container col d-block mt-3 p-0">
+                                                <div class="container d-flex justify-content-center">
+                                                    <img class="border" src="pro7.jpg" alt="Headphone" style="height: 250px; width: 250px;">
+                                                </div>
+                                                <div class="container d-block justify-content-center">
+                                                    <div class="container d-flex justify-content-center">
+                                                        <h6>Product Title Here</h6>
+                                                    </div>
+                                                    <div class="container d-flex justify-content-center">
+                                                        <h6>$150.00</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="container col d-block mt-3 p-0">
+                                                <div class="container d-flex justify-content-center">
+                                                    <img class="border" src="pro8.jpg" alt="Headphone" style="height: 250px; width: 250px;">
+                                                </div>
+                                                <div class="container d-block justify-content-center">
+                                                    <div class="container d-flex justify-content-center">
+                                                        <h6>Product Title Here</h6>
+                                                    </div>
+                                                    <div class="container d-flex justify-content-center">
+                                                        <h6>$150.00</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="container col d-block mt-3 p-0">
+                                                <div class="container d-flex justify-content-center">
+                                                    <img class="border" src="pro9.jpg" alt="Headphone" style="height: 250px; width: 250px;">
+                                                </div>
+                                                <div class="container d-block justify-content-center">
+                                                    <div class="container d-flex justify-content-center">
+                                                        <h6>Product Title Here</h6>
+                                                    </div>
+                                                    <div class="container d-flex justify-content-center">
+                                                        <h6>$150.00</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- Left and right controls -->
+                                <a class="carousel-control-prev" href="#demo3" data-slide="prev">
+                                  <span class="carousel-control-prev-icon bg-dark"></span>
+                                </a>
+                                <a class="carousel-control-next" href="#demo3" data-slide="next">
+                                  <span class="carousel-control-next-icon bg-dark"></span>
+                                </a>
+                            </div>
+                            
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- BANNER-2  -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col p-3">
+                    <div class="card ">
+                        <img src="banner4.jpg" alt="banner1">
+                        <div class="card-img-overlay">
+                            <p class="card-text">Only in our store</p>
+                            <h4 class="card-title">Special Offer</h4>
+                            <a href="#" class="">See Detailes</a>
+                          </div>
+                    </div>
+                </div>
+                <div class="col p-3">
+                    <div class="card ">
+                        <img src="banner5.jpg" alt="banner1">
+                        <div class="card-img-overlay">
+                            <p class="card-text">Only in our store</p>
+                            <h4 class="card-title">Special Offer</h4>
+                            <a href="#" class="">See Detailes</a>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+           <!-- FEATURED PRODUCT -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col text-info">
+                <h2>FEATURED PRODUCT</h2>
+                <hr>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div id="demo4" class="carousel slide" data-ride="carousel">
+
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+              <li data-target="#demo4" data-slide-to="0" class="active"></li>
+              <li data-target="#demo4" data-slide-to="1"></li>
+              <li data-target="#demo4" data-slide-to="2"></li>
+            </ul>
+            
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="container-fluid row border mt-4 p-0 d-flex">
+                        <div class="container col d-block mt-3 p-0">
+                            <div class="container d-flex justify-content-center">
+                                <img class="border" src="pro1.jpg" alt="Headphone" style="height: 250px; width: 250px;">
+                            </div>
+                            <div class="container d-block justify-content-center">
+                                <div class="container d-flex justify-content-center">
+                                    <h6>Product Title Here</h6>
+                                </div>
+                                <div class="container d-flex justify-content-center">
+                                    <h6>$150.00</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container col d-block mt-3 p-0">
+                            <div class="container d-flex justify-content-center">
+                                <img class="border" src="pro2.jpg" alt="Headphone" style="height: 250px; width: 250px;">
+                            </div>
+                            <div class="container d-block justify-content-center">
+                                <div class="container d-flex justify-content-center">
+                                    <h6>Product Title Here</h6>
+                                </div>
+                                <div class="container d-flex justify-content-center">
+                                    <h6>$150.00</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container col d-block mt-3 p-0">
+                            <div class="container d-flex justify-content-center">
+                                <img class="border" src="pro3.jpg" alt="Headphone" style="height: 250px; width: 250px;">
+                            </div>
+                            <div class="container d-block justify-content-center">
+                                <div class="container d-flex justify-content-center">
+                                    <h6>Product Title Here</h6>
+                                </div>
+                                <div class="container d-flex justify-content-center">
+                                    <h6>$150.00</h6>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container-fluid row border mt-4 p-0 d-flex">
+                        <div class="container col d-block mt-3 p-0">
+                            <div class="container d-flex justify-content-center">
+                                <img class="border" src="pro4.jpg" alt="Headphone" style="height: 250px; width: 250px;">
+                            </div>
+                            <div class="container d-block justify-content-center">
+                                <div class="container d-flex justify-content-center">
+                                    <h6>Product Title Here</h6>
+                                </div>
+                                <div class="container d-flex justify-content-center">
+                                    <h6>$150.00</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container col d-block mt-3 p-0">
+                            <div class="container d-flex justify-content-center">
+                                <img class="border" src="pro5.jpg" alt="Headphone" style="height: 250px; width: 250px;">
+                            </div>
+                            <div class="container d-block justify-content-center">
+                                <div class="container d-flex justify-content-center">
+                                    <h6>Product Title Here</h6>
+                                </div>
+                                <div class="container d-flex justify-content-center">
+                                    <h6>$150.00</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container col d-block mt-3 p-0">
+                            <div class="container d-flex justify-content-center">
+                                <img class="border" src="pro6.jpg" alt="Headphone" style="height: 250px; width: 250px;">
+                            </div>
+                            <div class="container d-block justify-content-center">
+                                <div class="container d-flex justify-content-center">
+                                    <h6>Product Title Here</h6>
+                                </div>
+                                <div class="container d-flex justify-content-center">
+                                    <h6>$150.00</h6>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container-fluid row border mt-4 p-0 d-flex">
+                        <div class="container col d-block mt-3 p-0">
+                            <div class="container d-flex justify-content-center">
+                                <img class="border" src="pro7.jpg" alt="Headphone" style="height: 250px; width: 250px;">
+                            </div>
+                            <div class="container d-block justify-content-center">
+                                <div class="container d-flex justify-content-center">
+                                    <h6>Product Title Here</h6>
+                                </div>
+                                <div class="container d-flex justify-content-center">
+                                    <h6>$150.00</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container col d-block mt-3 p-0">
+                            <div class="container d-flex justify-content-center">
+                                <img class="border" src="pro8.jpg" alt="Headphone" style="height: 250px; width: 250px;">
+                            </div>
+                            <div class="container d-block justify-content-center">
+                                <div class="container d-flex justify-content-center">
+                                    <h6>Product Title Here</h6>
+                                </div>
+                                <div class="container d-flex justify-content-center">
+                                    <h6>$150.00</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container col d-block mt-3 p-0">
+                            <div class="container d-flex justify-content-center">
+                                <img class="border" src="pro9.jpg" alt="Headphone" style="height: 250px; width: 250px;">
+                            </div>
+                            <div class="container d-block justify-content-center">
+                                <div class="container d-flex justify-content-center">
+                                    <h6>Product Title Here</h6>
+                                </div>
+                                <div class="container d-flex justify-content-center">
+                                    <h6>$150.00</h6>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo4" data-slide="prev">
+              <span class="carousel-control-prev-icon bg-dark"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo4" data-slide="next">
+              <span class="carousel-control-next-icon bg-dark"></span>
+            </a>
+        </div>
+    </div>
+
+    <!-- LATEST BLOG -->
+    <div class="container-fluid mt-3">
+        <div class="row">
+            <div class="col text-info">
+                <h2>LATEST BLOG</h2>
+                <hr>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        
+        <div class="row">
+            <div class="col pt-3 pb-3">
+                
+                <img class="" src="banner6.jpg" style="height: 230px;width:400px;;" alt="Winter-offer">
+                <div class="container pl-0">
+                    <h5>Winter Morning ShopMart</h5>
+                </div>
+                
+                <div class="container pl-0">
+                    <p>What is Lorem Ipsum?
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+                <a href="#">Read more</a>
+            </div>
+            <div class="col pt-3 pb-3">
+                
+                <img class="" src="banner7.jpg" style="height: 230px;width:400px;;" alt="Winter-offer">
+                <div class="container pl-0">
+                    <h5>Winter Morning ShopMart</h5>
+                </div>
+                
+                <div class="container pl-0">
+                    <p>What is Lorem Ipsum?
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+                <a href="#">Read more</a>
+            </div>
+            <div class="col pt-3 pb-3">
+                
+                <img class="" src="banner8.jpg" style="height: 230px;width:400px;;" alt="Winter-offer">
+                <div class="container pl-0">
+                    <h5>Winter Morning ShopMart</h5>
+                </div>
+                
+                <div class="container pl-0">
+                    <p>What is Lorem Ipsum?
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+                <a href="#">Read more</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- SoldierS -->
+    <div class="container-fluid pb-5">
+        <div class="row">
+            <div class="col-xl">
+                <div class="container">
+                    <div id="demo5" class="carousel slide" data-ride="carousel">
+
+                        <!-- Indicators -->
+                        <!-- <ul class="carousel-indicators">
+                          <li data-target="#demo5" data-slide-to="0" class="active"></li>
+                          <li data-target="#demo5" data-slide-to="1"></li>
+                          <li data-target="#demo5" data-slide-to="2"></li>
+                        </ul> -->
+                        
+                        <!-- The slideshow -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="col-xl" style="background-color: rgb(235, 234, 234);">
+                                    <div class="container" >
+                                        <div class="container d-block p-2">
+                                            <h6 class="p-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                                                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+                                                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
+                                                pariatur. quis nostrud exercitation!
+                                            </h6>
+                                            <div class="container d-flex justify-content-center"><h4>John Doe</h4></div>
+                                            <div class="container d-flex justify-content-center"><p>COE, XYZ Software</p></div>
+                                        </div>
+                                    </div>
+                                            <div class="container d-flex justify-content-center">
+                                                <img src="admin4.jpg" class="p-1" style="height: 120px;width: 120px;" alt="admin">
+                                            </div>
+                        
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-xl" style="background-color: rgb(235, 234, 234);">
+                                    <div class="container" >
+                                        <div class="container d-block p-2">
+                                            <h6 class="p-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                                                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+                                                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
+                                                pariatur. quis nostrud exercitation!
+                                            </h6>
+                                            <div class="container d-flex justify-content-center"><h4>Md. Akram Biblo</h4></div>
+                                            <div class="container d-flex justify-content-center"><p>COE, XYZ Software</p></div>
+                                        </div>
+                                    </div>
+                                            <div class="container d-flex justify-content-center">
+                                                <img src="admin2.jpg" class="p-1" style="height: 120px;width: 120px;" alt="admin">
+                                            </div>
+                        
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-xl" style="background-color: rgb(235, 234, 234);">
+                                    <div class="container" >
+                                        <div class="container d-block p-2">
+                                            <h6 class="p-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                                                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+                                                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
+                                                pariatur. quis nostrud exercitation!
+                                            </h6>
+                                            <div class="container d-flex justify-content-center"><h4>Md. Akram Biblo</h4></div>
+                                            <div class="container d-flex justify-content-center"><p>COE, XYZ Software</p></div>
+                                        </div>
+                                    </div>
+                                            <div class="container d-flex justify-content-center">
+                                                <img src="admin3.jpg" class="p-1" style="height: 120px;width: 120px;" alt="admin">
+                                            </div>
+                        
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Left and right controls -->
+                        <a class="carousel-control-prev" href="#demo5" data-slide="prev">
+                          <span class="carousel-control-prev-icon bg-dark"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#demo5" data-slide="next">
+                          <span class="carousel-control-next-icon bg-dark"></span>
+                        </a>
+                    </div>
+                </div>
+                
+            </div>
+           
+            <div class="col-xl">
+                <div class="container border p-5">
+                    <img src="s1.png" style="height: 90px; width: 160px;" class="pl-3 pt-3" alt="sponsors">
+                    <img src="s2.png" style="height: 90px; width: 160px;" class="pl-3 pt-3" alt="sponsors">
+                    <img src="s3.png" style="height: 90px; width: 160px;" class="pl-3 pt-3" alt="sponsors">
+                    <img src="s4.png" style="height: 90px; width: 160px;" class="pl-1 pt-3" alt="sponsors">
+                    <img src="s5.png" style="height: 90px; width: 160px;" class="pl-3 pt-3" alt="sponsors">
+                    <img src="s6.png" style="height: 90px; width: 160px;" class="pl-1 pt-3" alt="sponsors">
+                    <img src="s7.png" style="height: 90px; width: 160px;" class="pl-3 pt-3 pb-4" alt="sponsors">
+                    <img src="s8.png" style="height: 90px; width: 160px;" class="pl-3 pt-3 pb-4" alt="sponsors">
+                    <img src="s9.png" style="height: 90px; width: 160px;" class="pl-3 pt-3 pb-4" alt="sponsors">
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!-- Other Info -->
+    <div class="container-fluid bg-dark text-white p-4">
+        <div class="row">
+            <div class="col-lg-7">
+                <div class="row">
+                    <div class="col p-3">
+                        <h5 class="text-info">USEFUL LINK</h5><br>
+                        <a class="text-light" href="#">Product Recall</a><br>
+                        <a class="text-light" href="#">Gift Vouchers</a><br>
+                        <a class="text-light" href="#">Returns & Exchange</a><br>
+                        <a class="text-light" href="#">Shipping Options</a><br>
+                        <a class="text-light" href="#">Help & FAQs</a><br>
+                        <a class="text-light" href="#">Order history</a>
+                    </div>
+                    <div class="col p-3">
+                        <h5 class="text-info">SERVICE</h5><br>
+                        <a class="text-light" href="#">Account</a><br>
+                        <a class="text-light" href="#">Wishlist</a><br>
+                        <a class="text-light" href="#">Shopping Cart</a><br>
+                        <a class="text-light" href="#">Return Policy</a><br>
+                        <a class="text-light" href="#">Special</a><br>
+                        <a class="text-light" href="#">Lookbook</a>
+                    </div>
+                    <div class="col p-3">
+                        <h5 class="text-info">OTHER INFO</h5><br>
+                        <a class="text-light" href="#">Sites Map</a><br>
+                        <a class="text-light" href="#">News </a><br>
+                        <a class="text-light" href="#">Trends</a><br>
+                        <a class="text-light" href="#">About Us</a><br>
+                        <a class="text-light" href="#">Contact Us</a><br>
+                        <a class="text-light" href="#">My Orders</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5 ">
+                <div class="container-fluid p-3 border">
+                    <h5 class="text-info">SUBSCRIBE TO OUR NEWS</h5><br>
+                    <p>Subscribe to be the first to know about Sales, 
+                        Events, and Exclusive Offers!
+                    </p>
+                    <div class="container-fluid d-flex ">
+                        <input type="text" placeholder="Enter Your Email" style="width: 250px;height:40px;border-radius: 5px;">
+                        <a class="text-white text-decoration-none bg-info ml-3 p-2" href="#">SUBCRIBE</a>
+                    </div>
+                    <div class="container mt-2">
+                        <h6 class="text-info">FOLLOW US</h6>
+                        <i class="fab fa-facebook-square" style='font-size:30px'></i>
+                        <i class="fab fa-twitter-square" style='font-size:30px'></i>
+                        <i class="fab fa-whatsapp-square" style='font-size:30px'></i>
+                        <i class="fab fa-linkedin" style='font-size:30px'></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        
+    </div>
+    
+
+
+<div class="container-fluid bg-dark text-light border">
+    <div class="container-fluid d-flex justify-content-center p-3">
+            <h1 class="font-italic text-light"> <strong>Techno</strong>Mart</h1>
+    </div>
+    
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-4 d-flex justify-content-center">
+                    <i class='fas fa-map-marker-alt' style='font-size:24px'></i>&nbsp;&nbsp;&nbsp;
+                    <p>Company, 12/34 - West 21st Street...</p>
+                </div>
+                <div class="col-md-4 d-flex justify-content-center">
+                    <i class='fas fa-phone-square-alt' style='font-size:24px'></i>&nbsp;&nbsp;&nbsp;
+                    <p>+ (800) 0123 456 789</p>
+                </div>
+                <div class="col-md-4 d-flex justify-content-center">
+                    <i class='far fa-envelope-open' style='font-size:24px'></i>&nbsp;&nbsp;&nbsp;
+                    <p>akram.biblo@gmail.com</p>
+                </div>
+            </div>
+            <hr>
+            <!-- footer  -->
+            <div class="container-fluid d-flex justify-content-center">
+                <p>Copyright © 2021 <strong>Akram</strong>Biblo . All Rights Reserved.</p>
+            </div>
+</div>
+
+
+
+    
+     
+
+    
+
+
+
+</body>
+</html>
